@@ -291,6 +291,7 @@ li.heading {
 }
 .bg-db {background-color: dodgerblue;}
 .print-only {display: none;}
+ul.decorate {list-style-type: initial; padding-left: 20px;}
 ul.web-meta {margin: 0; padding: 0;}
 .web-meta li {float: left;}
 /* ==========================================================================
