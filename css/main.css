@@ -523,6 +523,7 @@ ul.web-meta {margin: 0; padding: 0;}
         box-shadow: none;
     }
     .print-only {display: initial;}
+    .print-note {opacity: .8, margin-top: 50px;}
     h3 {
         font-family: 'Fira Sans', sans-serif;
         font-weight: 700;
@@ -532,6 +533,6 @@ ul.web-meta {margin: 0; padding: 0;}
         margin-top: 24px;
     }
     h4 {font-size: 12px; margin-bottom: 2px;}
-    p, a, li {font-size: 10px; line-height: 14px;}
+    p, a, li, #page-url {font-size: 10px; line-height: 14px;}
     strong {font-size: 8px;}
 }
