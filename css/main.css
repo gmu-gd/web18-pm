@@ -168,9 +168,10 @@ header {
 .student:nth-child(5n+1) {
     border-left: none;
 }
-.student:nth-child(n+16) {
+.student:nth-child(n+21) {
     border-bottom: none;
 }
+.student:last-of-type:hover {background-color: dodgerblue; cursor: initial;}
 .textblock {
     padding: 25px;
     width: 50%;
@@ -398,7 +399,7 @@ ul.web-meta {margin: 0; padding: 0;}
     .student:nth-child(4n+1) {
         border-left: none;
     }
-    .student:nth-child(n+17) {
+    .student:nth-child(n+21) {
         border-bottom: none;
     }
 }
@@ -424,7 +425,7 @@ ul.web-meta {margin: 0; padding: 0;}
     .student:nth-child(2n+1) {
         border-left: none;
     }
-    .student:nth-child(n+19) {
+    .student:nth-child(n+21) {
         border-bottom: none;
     }
     .small-screen{
@@ -533,6 +534,6 @@ ul.web-meta {margin: 0; padding: 0;}
         margin-top: 24px;
     }
     h4 {font-size: 12px; margin-bottom: 2px;}
-    p, a, li, #page-url {font-size: 10px; line-height: 14px;}
+    p, a, li, #page-url, #print-date {font-size: 10px; line-height: 14px;}
     strong {font-size: 8px;}
 }
