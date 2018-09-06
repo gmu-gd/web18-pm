@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Column Grid</title>
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				background-color: #ea8685
+			}
+
+			.footer{
+				height: 100px;
+				width: 980px;
+				background-color: #63cdda;
+				box-shadow: 10px 10px rgba(0,0,0,.075);
+				border: 5px solid #3dc1d3;
+				border-radius: 5px;
+				margin: 20px;
+			}
+
+			.title{
+				height: 25px;
+				width: 980px;
+				background-color: #63cdda;
+				box-shadow: 10px 10px rgba(0,0,0,.075);
+				border: 5px solid #3dc1d3;
+				border-radius: 5px;
+				margin: 20px;
+			}
+
+			.column{
+				height: 800px;
+				width: 300px;
+				float: left;
+				background-color: #63cdda;
+				box-shadow: 10px 10px rgba(0,0,0,.075);
+				border: 5px solid #3dc1d3;
+				border-radius: 5px;
+				margin: 20px;
+			}
+
+			.columnArrangement{
+				height: 1145px;
+				width: 1020px;
+				margin: auto;
+				margin-bottom: 300px;
+				margin-top: 300px;
+			}
+
+			.triColumn{
+				height: 840px;
+				width: 1020px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="columnArrangement">
+			<div class="footer"></div>
+			<div class="title"></div>
+			<div class="triColumn">
+				<div class="column"></div>
+				<div class="column"></div>
+				<div class="column"></div>
+			</div>
+			<div class="footer"></div>
+		</div>
+	</body>
+</html>
