@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tennis Court</title>
+		<style>
+			/*makes the borders inside instead of outside the shape*/
+			*{box-sizing: border-box}
+			div{float:left;}
+			.side, .top, .square {
+				background-color: red;
+				border: 5px solid white;
+			}
+			.side {
+				width: 200px;
+				height: 600px;
+			}
+			.side:hover {background-color: blue;}
+			.top {
+				width: 400px;
+				height: 200px;
+			}
+			.square {
+				width: calc(400px / 2);
+				height: calc(600px - 200px);
+			}
+			.fieldContainer {width: calc(200px + 200px + 400px);}
+			.halfContainer {width: calc(200px + 200px + 400px);}
+			.middleContainer{width: 400px;}
+		</style>
+	</head>
+	<body>
+		<div class="fieldContainer">
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="top"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+			<div class="halfContainer">
+				<div class="side"></div>
+				<div class="middleContainer">
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="top"></div>
+				</div>
+				<div class="side"></div>
+			</div>
+		</div>
+	</body>
+</html>

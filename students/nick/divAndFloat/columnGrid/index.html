@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Column Grid</title>
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				background-color: #ea8685
+			}
+
+			a {
+				color: white;
+				text-decoration: none;
+				transition: all 0.5s ease;
+			}
+
+			a:hover {
+				color: #ced3db;
+				transition: all 0.5s ease;
+			}
+
+			.buttonInvis {
+				height: 100px;
+				width: 200px;
+				margin: auto;
+				background-color: #ea8685;
+				border-radius: 20px;
+				box-shadow: 0px 0px rgba(255,0,255,0.0),
+							0px 0px rgba(0,255,255,0.0),
+							0px 0px rgba(255,255,0,0.0),
+							0px 0px rgba(0,0,0,0.0),
+							inset 5px 10px rgba(0,0,0,0.05),
+							inset -5px -10px rgba(255,255,255,0.4);
+				transition: all 0.5s ease;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 100px;
+				font-size: 10px;
+				font-family: 'Alegreya Sans SC', sans-serif;
+			}
+
+			.buttonInvis:hover {
+				background-color: white;
+				height: 120px;
+				width: 240px;
+				box-shadow: 10px 20px rgba(255,0,255,0.15),
+							-10px 20px rgba(0,255,255,0.15),
+							-10px -5px rgba(255,255,0,0.15),
+							10px -5px rgba(0,0,0,0.05),
+							inset 0px 0px rgba(0,0,0,0.0),
+							inset 0px 0px rgba(255,255,255,0.0);
+				transition: all 0.5s ease;
+				font-size: 12px;
+				line-height: 120px;
+			}
+
+			.buttonSpacer{
+				position: fixed;
+				right: 10px;
+				bottom: 10px;
+				height: 150px;
+				width: 250px;
+				float: right;
+			}
+
+			.footer{
+				height: 100px;
+				width: 980px;
+				background-color: #63cdda;
+				box-shadow: 10px 10px rgba(0,0,0,.075);
+				border: 5px solid #3dc1d3;
+				border-radius: 5px;
+				margin: 20px;
+			}
+
+			.title{
+				height: 25px;
+				width: 980px;
+				background-color: #63cdda;
+				box-shadow: 10px 10px rgba(0,0,0,.075);
+				border: 5px solid #3dc1d3;
+				border-radius: 5px;
+				margin: 20px;
+			}
+
+			.column{
+				height: 800px;
+				width: 300px;
+				float: left;
+				background-color: #63cdda;
+				box-shadow: 10px 10px rgba(0,0,0,.075);
+				border: 5px solid #3dc1d3;
+				border-radius: 5px;
+				margin: 20px;
+			}
+
+			.columnArrangement{
+				height: 1145px;
+				width: 1020px;
+				margin: auto;
+				margin-bottom: 300px;
+				margin-top: 300px;
+			}
+
+			.triColumn{
+				height: 840px;
+				width: 1020px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="buttonSpacer">
+			<div class="buttonInvis"><a href="../index.html"><h2>Back</h2></a></div>
+		</div>
+		<div class="columnArrangement">
+			<div class="footer"></div>
+			<div class="title"></div>
+			<div class="triColumn">
+				<div class="column"></div>
+				<div class="column"></div>
+				<div class="column"></div>
+			</div>
+			<div class="footer"></div>
+		</div>
+	</body>
+</html>
