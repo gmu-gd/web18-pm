@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+.d5fixed {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+.d5absolute {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.d5relative {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
