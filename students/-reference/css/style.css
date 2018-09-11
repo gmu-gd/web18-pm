@@ -1,0 +1,101 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	font-size: 5vw;
+	color: red;
+	transition: color .5s ease;
+}
+a:hover {
+	color: blue;
+}
+
+
+.d5body {
+	height: 4000px;
+	background: #5C258D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.d5absolute {
+	width: 800px;
+	height: 400px;
+	background-color: red;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+.d5relative {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+.d5fixed {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: fixed;
+	top: 550px;
+	left: 550px;
+}
+
+.square1 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.square2 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+.square3 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
+.square9 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+.square10 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+.square11 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+	.square11 {background-color: blue;}
+}
+
+
