@@ -1,0 +1,54 @@
+a {
+  font-size: 30px;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+  transition: all .5s ease;
+  }
+a:hover {
+  color: dodgerblue;
+  }
+ul {
+  list-style-type: none;
+  }
+div {
+  position: absolute;
+}
+.square1 {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 200px;
+  top: 0;
+  left: 0;
+}
+.square2 {
+  background-color: tomato;
+  width: 200px;
+  height: 100px;
+  top: 0;
+  left: 100px;
+}
+.square3 {
+  
+}
+.square4 {
+  
+}
+.square5 {
+  
+}
+.square6 {
+  
+}
+.square7 {
+  
+}
+.square8 {
+  
+}
+.square9 {
+  
+}
+.square10 {
+  
+}
