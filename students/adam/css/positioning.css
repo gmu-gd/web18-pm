@@ -1,0 +1,155 @@
+a {
+  font-size: 30px;
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+  transition: all .5s ease;
+  }
+a:hover {
+  color: dodgerblue;
+  }
+ul {
+  list-style-type: none;
+  }
+div {
+  position: absolute;
+}
+.square1 {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 200px;
+  top: 0;
+  left: 0;
+}
+.square2 {
+  background-color: tomato;
+  width: 200px;
+  height: 100px;
+  top: 0;
+  left: 100px;
+}
+.square3 {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 200px;
+  top: 0;
+  left: 300px;
+}
+.square4 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 100px;
+}
+.square5 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 200px;
+}
+.square6 {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 200px;
+  top: 200px;
+  left: 0;
+}
+.square7 {
+  background-color: tomato;
+  width: 200px;
+  height: 100px;
+  top: 300px;
+  left: 100px;
+}
+.square8 {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 200px;
+  top: 200px;
+  left: 300px;
+}
+.square9 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 100px;
+}
+.square10 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 200px;
+}
+@media only screen and (min-width:800px) {
+  .square1{
+    width: 200px;
+    height: 400px;
+  }
+  .square2 {
+    background-color: tomato;
+    width: 400px;
+    height: 200px;
+    top: 0;
+    left: 200px;
+  }
+  .square3 {
+    background-color: dodgerblue;
+    width: 200px;
+    height: 400px;
+    top: 0;
+    left: 600px;
+  }
+  .square4 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+  }
+  .square5 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 400px;
+  }
+  .square6 {
+    background-color: dodgerblue;
+    width: 200px;
+    height: 400px;
+    top: 400px;
+    left: 0;
+  }
+  .square7 {
+    background-color: tomato;
+    width: 400px;
+    height: 200px;
+    top: 600px;
+    left: 200px;
+  }
+  .square8 {
+    background-color: dodgerblue;
+    width: 200px;
+    height: 400px;
+    top: 400px;
+    left: 600px;
+  }
+  .square9 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 200px;
+  }
+  .square10 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 400px;
+  }
+}

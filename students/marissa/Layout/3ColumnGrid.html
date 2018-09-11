@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>3 column grid</title>
+		<style>
+		*{box-sizing: border-box;}
+			body{
+				margin: 0px;
+			}
+			div{
+				float: left;
+			}
+			.boardContainer{
+				width: 600px;
+			}
+			.grid{
+				width: 600px;
+				height: 1200px;
+				background-color: white;
+			}
+			.top{
+				width: 600px;
+				height: 150px;
+				background-color: red;
+				border: 10px solid white
+			}
+			.topbottom{
+				width: 600px;
+				height: 50px;
+				background-color: red;
+				border: 10px solid white
+			}
+			.middle{
+				width: 600px;
+				height: 600px;
+				background-color: white;
+			}
+			.column{
+				width: 200px;
+				height: 600px;
+				background-color: red;
+				border: 10px solid white
+			}
+			.bottom{
+				width: 600px;
+				height: 150px;
+				background-color: red;
+				border: 10px solid white
+			}
+		</style>
+	</head>
+	<body>
+		<div class="boardContainer">
+			<div class="grid">
+				<div class="top"></div>
+				<div class="topbottom"></div>
+				<div class="middle">
+					<div class="column"></div>
+					<div class="column"></div>
+					<div class="column"></div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+	</body>
+</html>
