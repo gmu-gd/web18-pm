@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tennis Court</title>
+        <style>
+            *{box-sizing: border-box;}
+            body{
+                margin: 0;
+            }
+            div{
+                float: left;
+            }
+            .Field{
+                width: 500px;
+            }
+            .Top{
+                width: 500px;
+            }
+            .side{
+                width: 100px;
+                height: 250px;
+                background-color: red;
+                border-right: 1px solid white;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+                border-spacing: 50px;
+                border-left: 1px solid white;
+
+            }
+            .Middle{
+                width: 300px;
+            }
+            .center{
+                width: 400px;
+                height: 125px;
+                background-color: red;
+                border-spacing: 50px;
+                border: 1px solid white;
+            }
+            .m{
+                width: 150px;
+                height: 125px;
+                background-color: red;
+                border-spacing: 50px;
+                border: 1px solid white;
+
+            }
+        </style>
+    </head>
+    <body>
+    <div class="Field">
+      <div class="Top">
+      <!-- Top Half -->
+          <div class="side"></div>
+      <!-- Middle Part-->
+          <div class="Middle">
+            <div class="center"></div>
+            <div class="m"></div>
+            <div class="m"></div>
+      <!-- end of Middle-->
+          </div>
+          <div class="side"></div>
+      </div>
+      <div class="Top">
+      <!-- Bottom Half -->
+          <div class="side"></div>
+      <!-- Middle Part-->
+          <div class="Middle">
+            <div class="m"></div>
+            <div class="m"></div>
+            <div class="center"></div>
+          </div>
+      <!-- end of Middle-->
+          <div class="side"></div>
+      </div>
+    </div>
+
+    </body>
+</html>
