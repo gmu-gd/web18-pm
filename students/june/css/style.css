@@ -1,0 +1,21 @@
+body {
+	background-color: yellow;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	font-size: 48px;
+	font-family:sans-serif;
+}
+
+a {
+	color: white;
+	transition: all 1s ease;}
+
+a:hover {
+	color: blue;
+}

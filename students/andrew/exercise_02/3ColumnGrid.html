@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Boisvert - 3 Column Grid</title>
+			<!-- it scales!-->
+		<style>
+			*
+			{
+			box-sizing: border-box;
+			}
+			
+			body
+			{
+			margin: 0vw 20vw;
+			}
+			
+			div
+			{
+			float:left;
+			}
+			
+			.thickRow
+			{
+			background-color: red;
+			width: 60vw;
+			height: 10vh;
+			border: 0.75vh solid white;
+			}
+			
+			.thinRow
+			{
+			background-color: red;
+			width: 60vw;
+			height: 5vh;
+			border: 0.75vh solid white;
+			}
+			
+			.triColumn
+			{
+			background-color: red;
+			width: 20vw;
+			height: 75vh;
+			border: 0.75vh solid white;
+			}
+			
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div name="content" style="height:100vh; width:60vw;">
+		
+			<div class="thickRow"></div>
+			
+			<div class="thinRow"></div>
+			
+			<div name="triColumnHolder" style="height:75vh; width:60vw;">
+				
+				<div class="triColumn"></div>
+				
+				<div class="triColumn"></div>
+				
+				<div class="triColumn"></div>
+				
+			</div>
+			
+			<div class="thickRow"></div>
+		
+		</div>
+		
+	</body>
+
+</html>

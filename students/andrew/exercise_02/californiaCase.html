@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Boisvert - California Case</title>
+		
+		<style>
+			*
+			{
+			box-sizing: border-box;
+			}
+			
+			body
+			{
+			margin: 1em;
+			background-color: white;
+			}
+			
+			div
+			{
+			float:left;
+			font-size: 3vw;
+			}
+			
+			.fullSpread
+			{
+			height: 15em;
+			width: 26em;
+			background-color: red;
+			}
+			
+			.twoStack
+			{
+			height:4em;
+			width:1em;
+			}
+			
+			.twoByTwo
+			{
+			height:4em;
+			width:2em;
+			}
+			
+			.eightByThree
+			{
+			height:6em;
+			width:8em;
+			}
+			
+			.eightByFour
+			{
+			height:7em;
+			width:8em;
+			}
+			
+			.cell_1x1
+			{
+			background-color: red;
+			border: 1px solid white;
+			height: 2em;
+			width: 1em;
+			}
+			
+			.cell_1x2
+			{
+			background-color: red;
+			border: 1px solid white;
+			height: 4em;
+			width: 1em;
+			}
+			
+			.cell_2x2
+			{
+			background-color: red;
+			border: 1px solid white;
+			height: 4em;
+			width: 2em;
+			}
+			
+			.cell_2x3
+			{
+			background-color: red;
+			border: 1px solid white;
+			height: 6em;
+			width: 2em;
+			}
+			
+			.cell_8x7
+			{
+			float: left;
+			margin: 1vw;
+			height: 14em;
+			width: 8em;
+			border: 1px solid white;
+			background-color: green;
+			}
+			
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div class="fullSpread">
+		
+			<div name="leftPiece" class="cell_8x7">
+				
+				<div class="eightByThree">
+				
+					<div name="leftMajority" style="width:6em; height: 12em; background-color:white;">
+					
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						
+						<div class="twoStack">
+							<div class="cell_1x1"></div>
+							<div class="cell_1x1"></div>
+						</div>
+						
+						<div class="cell_1x2"></div>
+						
+						<div class="cell_2x2"></div>
+						<div class="cell_2x2"></div>
+					</div>
+					
+						<div class="cell_2x3"></div>
+					
+				</div>
+				
+				<div class="eightByFour">
+				
+					<div class="twoStack">
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+					</div>
+					
+					<div class="cell_1x2"></div>
+					<div class="cell_2x2"></div>
+					<div class="cell_2x2"></div>
+					<div class="cell_2x2"></div>
+					
+					<div class="twoStack">
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+					</div>
+					
+					<div class="cell_1x2"></div>
+					<div class="cell_2x2"></div>
+					<div class="cell_2x2"></div>
+					<div class="cell_2x2"></div>
+					
+				</div>
+			
+			</div>
+			
+			<div name="midPiece" class="cell_8x7">
+			
+				<div class="eightByThree">
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_2x2"></div>
+					<div class="cell_2x2"></div>
+					<div class="cell_1x2"></div>
+					<div class="cell_1x2"></div>
+					
+					<div class="twoByTwo">
+					
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						
+					</div>
+					
+					<div class="cell_2x2"></div>
+					<div class="cell_1x2"></div>
+					<div class="cell_1x2"></div>
+					<div class="cell_1x2"></div>
+					<div class="cell_1x2"></div>
+					<div class="cell_1x2"></div>
+					<div class="cell_1x2"></div>
+					
+					<div class="cell_2x2"></div>
+					<div class="cell_2x2"></div>
+					
+					<div class="twoByTwo">
+					
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						<div class="cell_1x1"></div>
+						
+					</div>
+					
+					<div class="cell_2x2"></div>
+					
+				</div>
+			
+			</div>
+			
+			<div name="rightPiece" class="cell_8x7">
+			
+				<div class="eightByThree">
+			
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+					<div class="cell_1x1"></div>
+			
+				</div>
+			
+			</div>
+		
+		</div>
+		
+	</body>
+
+</html>
