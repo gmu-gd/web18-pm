@@ -3,7 +3,203 @@
 /*can do in line style but shouldn't need to do that*/
 body{
 	background-color:lightgreen;
-}
-ul{
+	height:1000px;
+	
+
 
 }
+a{
+	font-family:fantasy;
+	font-size:40px;
+	text-transform: uppercase;
+	color:navy;
+	font-weight:italic;
+	cursor:default;
+	transition: all .3s ease;
+	border-bottom: none;
+}
+a:hover{
+	color:white;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	text-align: center;
+}
+
+/*fixes an element on the page*/
+/*floats over types*/
+.d5fixed{
+	width:100px;
+	height:100px;
+	background-color:yellow;
+	position:fixed;
+	/*where to put it*/
+	top:500px;
+	left:500px;
+}
+.d5absolute{
+	width:500px;
+	height:500px;
+	background-color:blue;
+	position:absolute;
+	/*where to put it*/
+	top:250px;
+	left:250px;
+	/*order things in the way wanted to*/
+	/*can go negative*/
+	z-index:99;
+}
+/*keeps in the writing for it*/
+/*wrap an image around the text?*/
+/*relative to parent element*/
+.d5relatived{
+	width:100px;
+	height:100px;
+	background-color:red;
+	position:relative;
+	/*where to put it*/
+	top:50px;
+	left:50px;
+}
+
+.red{
+	background-color:red;
+}
+div{
+	position:fixed;
+	box-sizing:border-box;
+	border:2px solid white;
+}
+.side{
+	top:0;
+	left:0;
+	height:400px;
+	width:100px;
+	/*border:2px solid white;*/
+}
+.top{
+	top:0;
+	left:100px;
+	height:100px;
+	width:300px;
+	/*border:2px solid white;*/
+}
+.top2{
+	top:700px;
+	left:100px;
+	height:100px;
+	width:300px;
+}
+.bottom{
+	top:100px;
+	left:100px;
+	height:300px;
+	width:150px;
+}
+.bottom2{
+	top:100px;
+	left:250px;
+	height:300px;
+	width:150px;
+}
+.bottom3{
+	top:400px;
+	left:100px;
+	height:300px;
+	width:150px;
+}
+.bottom4{
+	top:400px;
+	left:250px;
+	height:300px;
+	width:150px;
+}
+.side2{
+	top:0;
+	left:400px;
+	height:400px;
+	width:100px;
+}
+
+.side3{
+	top:400px;
+	left:0;
+	height:400px;
+	width:100px;
+}
+.side4{
+	top:400px;
+	left:400px;
+	height:400px;
+	width:100px;
+}
+
+/*max width or width
+max is from this to this do this then rest as regular, min is vice versa*/
+@media only screen and (max-width:1000px){
+.side{
+	top:0;
+	left:0;
+	height:370px;
+	width:70px;
+	/*border:2px solid white;*/
+}
+.top{
+	top:0;
+	left:70px;
+	height:70px;
+	width:270px;
+	/*border:2px solid white;*/
+}
+.top2{
+	top:670px;
+	left:70px;
+	height:70px;
+	width:270px;
+}
+.bottom{
+	top:70px;
+	left:70px;
+	height:300px;
+	width:135;
+}
+.bottom2{
+	top:70px;
+	left:205px;
+	height:300px;
+	width:135px;
+}
+.bottom3{
+	top:370px;
+	left:70px;
+	height:300px;
+	width:135px;
+}
+.bottom4{
+	top:370px;
+	left:205px;
+	height:300px;
+	width:135px;
+}
+.side2{
+	top:0;
+	left:340px;
+	height:370px;
+	width:70px;
+}
+
+.side3{
+	top:370px;
+	left:0;
+	height:370px;
+	width:70px;
+}
+.side4{
+	top:370px;
+	left:340px;
+	height:370px;
+	width:70px;
+}
+
