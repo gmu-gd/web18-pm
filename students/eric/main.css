@@ -37,10 +37,34 @@ div {
     position: absolute;
 }
 
-.white {
-    background-color: white;
+.square1 {
+    width: 75px;
+    height: 400px;
+    position: relative;
+    border-right: white solid 50px;
+}
+.square2 {
+    width: 200px;
+    height: 20px;
+    position: relative;
+    border-left: white solid 50px;
+}
+.Field{
+    width: 500px;
+}
+.Top{
+    width: 500px;
+}
+.Middle{
+    width: 300px;
+}
+.blue {
+    background-color: blue;
 }
 
 .black {
-    background-color: black;
+    background-color: blue;
+}
+@media only screen and (max-width: 600px) {
+
 }
