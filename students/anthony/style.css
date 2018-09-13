@@ -1,0 +1,109 @@
+body{
+	background: #4AC29A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 50px;
+
+}
+
+.d5Fixed{
+
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: fixed;
+	top: 500px;
+	left: 500px;
+
+}
+.d5Relative{
+
+	width: 100px;
+	height: 100px;
+	background-color: seagreen;
+	position: relative;
+	top: 250px;
+	left: 250px;
+}
+.d5Absolute{
+
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.white{
+	background-color: white;
+
+}
+.black{
+	background-color: black;
+	
+}
+.square1{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 0;
+
+	
+}
+.square2{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 100px;
+
+	
+}
+.square3{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 200px;
+
+	
+}
+.square9{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 300px;
+
+	
+}
+.square10{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: ;
+
+	
+}
+.square11{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	top: 0;
+	left: 0;
+
+	
+}
+
+
+
+
