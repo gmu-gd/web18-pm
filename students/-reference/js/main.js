@@ -5,7 +5,6 @@ $(document).ready(function() {
     // call your function by writing yourFunctionName(); below
 
 
-
     // run function on resize of the window
     $(window).resize(function() {
       

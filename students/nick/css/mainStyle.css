@@ -1,0 +1,155 @@
+a {
+	color: #8b93a0;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+a:hover {
+	color: #ced3db;
+	transition: all 0.5s ease;
+}
+
+.hidden {
+	color: #e8ebef;
+}
+
+.whiteShineDarker{
+	background: radial-gradient(circle, #e8ebef 80%, #ced7e2) no-repeat center center fixed;
+}
+
+.button {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 10px 10px rgba(255,0,255,0.3),
+				-10px 10px rgba(0,255,255,0.3),
+				-10px -10px rgba(255,255,0,0.3),
+				10px -10px rgba(0,0,0,0.1);
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+	height: 120px;
+	width: 120px;
+	box-shadow: 10px 20px rgba(255,0,255,0.15),
+				-10px 20px rgba(0,255,255,0.15),
+				-10px -5px rgba(255,255,0,0.15),
+				10px -5px rgba(0,0,0,0.05);
+	transition: all 0.5s ease;
+}
+
+.buttonInvis {
+	height: 100px;
+	width: 200px;
+	margin: auto;
+	background-color: #e8ebef;
+	border-radius: 20px;
+	box-shadow: 0px 0px rgba(255,0,255,0.0),
+				0px 0px rgba(0,255,255,0.0),
+				0px 0px rgba(255,255,0,0.0),
+				0px 0px rgba(0,0,0,0.0),
+				inset 5px 10px rgba(0,0,0,0.05),
+				inset -5px -10px rgba(255,255,255,0.4);
+	transition: all 0.5s ease;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 10px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.buttonInvis:hover {
+	background-color: white;
+	height: 120px;
+	width: 240px;
+	box-shadow: 10px 20px rgba(255,0,255,0.15),
+				-10px 20px rgba(0,255,255,0.15),
+				-10px -5px rgba(255,255,0,0.15),
+				10px -5px rgba(0,0,0,0.05),
+				inset 0px 0px rgba(0,0,0,0.0),
+				inset 0px 0px rgba(255,255,255,0.0);
+	transition: all 0.5s ease;
+	font-size: 12px;
+	line-height: 120px;
+}
+
+.buttonPlaceHolder {
+	height: 100px;
+	width: 200px;
+	margin: auto;
+	background-color: #e8ebef;
+	border-radius: 20px;
+	box-shadow:	inset 5px 10px rgba(0,0,0,0.0),
+				inset -5px -10px rgba(255,255,255,0.0);
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	transition: all 0.5s ease;
+	font-size: 10px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.buttonPlaceHolder:hover {
+	transition: all 0.5s ease;
+	box-shadow:	inset 5px 10px rgba(0,0,0,0.05),
+				inset -5px -10px rgba(255,255,255,0.4);
+}
+
+.buttonPlaceHolder:active {
+	transition: all 0.5s ease;
+	box-shadow: 10px 10px rgba(255,0,255,0.15),
+				-10px 10px rgba(0,255,255,0.15),
+				-10px -10px rgba(255,255,0,0.15),
+				10px -10px rgba(0,0,0,0.05);
+}
+
+.name {
+	height: 100px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 3px 3px rgba(255,0,255,0.3),
+				-3px 3px rgba(0,255,255,0.3),
+				-3px -3px rgba(255,255,0,0.3),
+				3px -3px rgba(0,0,0,0.1);
+	font-size: 75px;
+	font-family: 'Anton', sans-serif;
+	margin-top: 0px;
+	transition: all 0.5s ease;
+}
+
+.name:hover {
+	font-size: 90px;
+	text-shadow: 6px 6px rgba(255,0,255,0.3),
+				-6px 6px rgba(0,255,255,0.3),
+				-6px -6px rgba(255,255,0,0.3),
+				6px -6px rgba(0,0,0,0.1);
+	transition: all 0.5s ease;
+}
+
+.name:active {
+	color: black;
+	text-shadow: 6px 6px rgba(0,0,0,0.1),
+				-6px 6px rgba(255,255,0,0.3),
+				-6px -6px rgba(255,0,255,0.3),
+				6px -6px rgba(0,255,255,0.3);
+	transition: all 0.5s ease;
+}
+
+.center {
+	margin:auto;
+	text-align: center;
+}
+
+.holder {
+	margin-left: 190px;
+	margin-right:  190px;
+	/*border: rgba(200,200,200,0.5) solid 10px;*/
+}
+
+.buttonSpacer{
+	height: 150px;
+	width: 250px;
+	float: left;
+}
