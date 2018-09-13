@@ -31,39 +31,114 @@
     left: 50px;
 }
 
-div {
+div:hover {
+    background-color: black;
     width: 100px;
     height: 100px;
     position: absolute;
 }
 
-.square1 {
-    width: 75px;
-    height: 400px;
+.left1 {
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 300px;
     position: relative;
     border-right: white solid 50px;
 }
+.top {
+    top: -300px;
+    left: 100px;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    border-left: 3px solid white;
+    border-bottom: 4px solid white;
+    border-right: 3px solid white;
+}
+.square1 {
+    top: -302px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-left: 3px solid white;
+
+}
 .square2 {
-    width: 200px;
-    height: 20px;
+    top: -452px;
+    left: 250px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-left: 3px solid white;
+}
+.right1 {
+    top: -754px;
+    left: 404px;
+    width: 100px;
+    height: 300px;
+    position: relative;
+    border-left: 2px solid white;
+}
+.left2 {
+    top: -751px;
+    left: -50px;
+    width: 100px;
+    height: 300px;
     position: relative;
     border-left: white solid 50px;
 }
-.Field{
-    width: 500px;
+.square3 {
+    top: -1050px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-left: 3px solid white;
 }
-.Top{
-    width: 500px;
+.square4 {
+    top: -1200px ;
+    left: 250px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-left: 3px solid white;
 }
-.Middle{
+.bottom {
+    top: -1204px;
+    left: 100px;
     width: 300px;
+    height: 150px;
+    position: relative;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+
+
+
 }
+.right2 {
+    top: -1507px;
+    left: 403px;
+    width: 100px;
+    height: 300px;
+    position: relative;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+
+}
+
 .blue {
     background-color: blue;
 }
 
 .black {
-    background-color: blue;
+    background-color: black;
+}
+.green {
+    background-color: green;
 }
 @media only screen and (max-width: 600px) {
 
