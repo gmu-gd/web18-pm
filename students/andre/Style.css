@@ -1,0 +1,44 @@
+body {
+	background-color: orange;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	font-size: 48px;
+	font-family: sans-serif;
+	padding-bottom: 10px;
+}
+a:hover {
+	color: orange;
+}
+.d5fixed {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: fixed;
+	top: 500px;
+	left: 500px;
+}
+.d5absolute {
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	position: absolute;
+	top: 250px
+	left: 250px;
+}
+.d5relative {
+	width: 100px
+	height: 100px;
+	background-color: maroon;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+div {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
