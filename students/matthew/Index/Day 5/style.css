@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 4000px;
+}
+.bottom {
+	width: 500px;
+	height: 125px;
+	background-color: red;
+	position: absolute;
+	top: 910px;
+	left: 150px;
+	border: 5px solid white;
+}
+.side {
+	width: 125px;
+	height: 500px;
+	background-color: red;
+	position: absolute;
+	top: 30px;
+	left: 25px;
+}
+.side2 {
+	width: 125px;
+	height: 500px;
+	background-color: red;
+	position: absolute;
+	top: 30px;
+	left: 660px;
+}
+.side3 {
+	width: 125px;
+	height: 505px;
+	background-color: red;
+	position: absolute;
+	top: 535px;
+	left: 25px;
+}
+.side4 {
+	width: 125px;
+	height: 505px;
+	background-color: red;
+	position: absolute;
+	top: 535px;
+	left: 660px;
+}
+.mid {
+	width: 500px;
+	height: 125px;
+	background-color: red;
+	position: absolute;
+	top: 25px;
+	left: 150px;
+	border: 5px solid white;
+}
+.box {
+	width: 250px;
+	height: 375px;
+	background-color: red;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	border: 5px solid white;
+}
+.box2 {
+	width: 250px;
+	height: 375px;
+	background-color: red;
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	border: 5px solid white;
+}
+.box3 {
+	width: 250px;
+	height: 375px;
+	background-color: red;
+	position: absolute;
+	top: 530px;
+	left: 150px;
+	border: 5px solid white;
+}
+.box4 {
+	width: 250px;
+	height: 375px;
+	background-color: red;
+	position: absolute;
+	top: 530px;
+	left: 400px;
+	border: 5px solid white;
+}
+div {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
