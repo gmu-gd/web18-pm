@@ -1,0 +1,34 @@
+	body {background-color: #ffeaf5}	
+
+			a {
+				font-size: 70px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-family: 'Poppins', sans-serif;
+				color: #ff89b8;
+				text-decoration: none;
+				transition: all .5s ease;
+
+			}
+
+			a:hover {
+				color: #85fcf8;
+			}
+
+			li {
+				margin: 50px;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+			}
+
+
+
+
+
+
+
+
+
