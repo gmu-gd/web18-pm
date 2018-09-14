@@ -1,0 +1,236 @@
+*{
+	box-sizing: border-box;
+}
+.bg{
+	background-color: #ea8685;
+}
+/*Tall top left*/
+.block1 {
+	position: absolute;
+	top: 45px;
+	left: 560px;
+	height: 450px;
+	width: 100px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Wide top*/
+.block2 {
+	position: absolute;
+	top: 45px;
+	left: 660px;
+	height: 150px;
+	width: 600px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Square top left*/
+.block3 {
+	position: absolute;
+	top: 195px;
+	left: 660px;
+	height: 300px;
+	width: 300px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Square top right*/
+.block4 {
+	position: absolute;
+	top: 195px;
+	left: 960px;
+	height: 300px;
+	width: 300px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Tall top right*/
+.block5 {
+	position: absolute;
+	top: 45px;
+	left: 1260px;
+	height: 450px;
+	width: 100px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Tall bottom left*/
+.block6 {
+	position: absolute;
+	top: 495px;
+	left: 560px;
+	height: 450px;
+	width: 100px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Square bottom left*/
+.block7 {
+	position: absolute;
+	top: 495px;
+	left: 660px;
+	height: 300px;
+	width: 300px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Square bottom right*/
+.block8 {
+	position: absolute;
+	top: 495px;
+	left: 960px;
+	height: 300px;
+	width: 300px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Wide bottom*/
+.block9 {
+	position: absolute;
+	top: 795px;
+	left: 660px;
+	height: 150px;
+	width: 600px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+/*Tall bottom right*/
+.block10 {
+	position: absolute;
+	top: 495px;
+	left: 1260px;
+	height: 450px;
+	width: 100px;
+	background-color: #63cdda;
+	box-shadow: 10px 10px rgba(0,0,0,.075);
+	border: 2px solid #ffffff;
+}
+a {
+	color: white;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+a:hover {
+	color: #ced3db;
+	transition: all 0.5s ease;
+}
+.buttonInvis {
+	height: 100px;
+	width: 200px;
+	margin: auto;
+	background-color: #ea8685;
+	border-radius: 20px;
+	box-shadow: 0px 0px rgba(255,0,255,0.0),
+				0px 0px rgba(0,255,255,0.0),
+				0px 0px rgba(255,255,0,0.0),
+				0px 0px rgba(0,0,0,0.0),
+				inset 5px 10px rgba(0,0,0,0.05),
+				inset -5px -10px rgba(255,255,255,0.4);
+	transition: all 0.5s ease;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 10px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+.buttonInvis:hover {
+	background-color: white;
+	height: 120px;
+	width: 240px;
+	box-shadow: 10px 20px rgba(255,0,255,0.15),
+				-10px 20px rgba(0,255,255,0.15),
+				-10px -5px rgba(255,255,0,0.15),
+				10px -5px rgba(0,0,0,0.05),
+				inset 0px 0px rgba(0,0,0,0.0),
+				inset 0px 0px rgba(255,255,255,0.0);
+	transition: all 0.5s ease;
+	font-size: 12px;
+	line-height: 120px;
+}
+.buttonSpacer{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	height: 150px;
+	width: 250px;
+	float: right;
+}
+
+@media only screen and (max-width: 1200px) {
+	/*Tall top left*/
+	.block1{
+		left: 280px;
+		height: 225px;
+		width: 50px;
+	}
+	/*Wide top*/
+	.block2{
+		left: 330px;
+		height: 75px;
+		width: 300px;
+	}
+	/*Square top left*/
+	.block3{
+		top: 120px;
+		left: 330px;
+		height: 150px;
+		width: 150px;
+	}
+	/*Square top right*/
+	.block4{
+		top: 120px;
+		left: 480px;
+		height: 150px;
+		width: 150px;
+	}
+	/*Tall top right*/
+	.block5{
+		left: 630px;
+		height: 225px;
+		width: 50px;
+	}
+	/*Tall bottom left*/
+	.block6{
+		top: 270px;
+		left: 280px;
+		height: 225px;
+		width: 50px;
+	}
+	/*Sqaure bottom left*/
+	.block7{
+		top: 270px;
+		left: 330px;
+		height: 150px;
+		width: 150px;
+	}
+	/*Square bottom right*/
+	.block8{
+		top: 270px;
+		left: 480px;
+		height: 150px;
+		width: 150px;
+	}
+	/*Wide bottom*/
+	.block9{
+		top: 420px;
+		left: 330px;
+		height: 75px;
+		width: 300px;
+	}
+	/*Tall bottom right*/
+	.block10{
+		top: 270px;
+		left: 630px;
+		height: 225px;
+		width: 50px;
+	}
+}
