@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	background-color: blue;
+}
+
+.centered {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	/*first number is top and bottom second value (auto) is left and right*/
+	margin: 200px auto;
+}
