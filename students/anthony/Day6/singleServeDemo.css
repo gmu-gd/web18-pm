@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+	background-color: blue;
+
+}
+
+.centered{
+
+	width: 200px;
+	height: 200px;
+	background-color: seagreen;
+	/*automatically finds out where to be based on screen size*/
+	margin: 200px auto;
+
+}

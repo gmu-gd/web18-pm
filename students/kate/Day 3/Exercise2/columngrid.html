@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Column Grid</title>	
+			<style>
+			* {box-sizing: border-box;}
+			div {
+				float: left;
+			}
+			body {
+				margin: 0;
+			}
+			.layer {
+				height: 55px;
+				width: 300px;
+			}
+			.Middle {
+				height: 300px;
+				width: 300px;
+			} 
+			.Top {
+				height: 355px;
+				width: 300px;
+			}
+			.Field {
+				height: 400px;
+				width: 300px;
+			}
+			.box {
+				height: 300px;
+				width: 100px;
+				background-color: red;
+				border: 2px solid white;
+			}
+			.base {
+				height: 45px;
+				width: 300px;
+				background-color: red;
+				border: 2px solid white;
+			}
+			.cross {
+				height: 10px;
+				width: 300px;
+				background-color: red;
+				border: 2px solid white;
+			}
+			</style>
+	</head>
+		<body>
+		<div class="Field">	
+		<div class="Top">
+		<div class="layer">
+			<div class="base"></div>
+			<div class="cross"></div>
+		</div>
+		<div class="Middle">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		</div>
+		</div>
+		<div class="base"></div>
+	</div>
+	</body>
+	</html>

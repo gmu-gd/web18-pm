@@ -1,0 +1,122 @@
+body {
+	background: grey;
+	}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	}
+
+li {
+	font-size: 48px;
+	font-family: sans-serif;
+	}
+
+a {
+	color: white;
+	transition: all 1s ease;
+	}
+
+a:hover {
+	color: blue;
+	}
+
+/* add classes to make minute details */
+.d5fixed {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: fixed;
+	top: 500px;
+	left: 500px;
+	}
+
+.d5absolute {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	}
+
+.d5relative {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	top: 500px;
+	left: 500px;
+	}
+
+
+div {
+	position: absolute;
+	background-color: red;
+					border: 5px solid white;
+}
+
+.courtcorners {
+		width: 100px;
+		height: 600px;
+}
+
+.courtoutofbounds {
+		width: 800px;
+		height: 200px;
+}
+.courtmiddle {
+		width: 400px;
+		height: 400px;
+}
+
+
+	.tl {
+		top: 0px;
+		left: 0px;
+	}
+
+	.tr {
+		top: 0px;
+		left: 900px; 
+	}
+
+	.bl {
+		top: 600px;
+		left: 0px; 
+	}
+
+	.br {
+		top: 600px;
+		left: 900px; 
+	}
+
+
+	.t {
+		top: 0px;
+		left: 100px;
+	}
+	.b {
+		top: 1000px;
+		left: 100px;
+	}
+
+
+	.tml {
+		top: 200px;
+		left: 100px;
+	}
+	.tmr {
+		top: 200px;
+		left: 500px;
+	}
+	.bml {
+		top: 600px;
+		left: 100px;
+	}
+	.bmr {
+		top: 600px;
+		left: 500px;
+	}
+
+
