@@ -1,0 +1,25 @@
+	.d5fixed {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: fixed;
+	top: 500px;
+	left: 500px;
+	}
+ 	.d5relative {
+ 	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	}
+	.d5absolute { 
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	}
+ 
