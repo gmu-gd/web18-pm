@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Boisvert - Pattern 02</title>
+		
+		<style>
+		
+			*{
+			box-sizing: border-box;
+			}
+			
+			body{
+			position: fixed;
+			margin: -2.5vw;
+			background-color:black;
+			}
+			
+			.column{
+			float:left;
+			width: 5vw;
+			}
+			
+			.dot{
+			padding: 10px;
+			width: 5vw;
+			height: 5vw;
+			border-radius: 50%;
+			background-color:#ce7c39;
+			}
+			
+			.dot .inDot{
+			margin: 0 auto;
+			position:relative;
+			top:0;
+			left: 0;
+			bottom:0;
+			width:1vw;
+			height:1vw;
+			border-radius: 50%;
+			background-color:black;
+			}
+			
+			.dot .inner{
+			margin: 0 auto;
+			position:relative;
+			top: 10%;
+			left: 20%;
+			bottom:0;
+			width:4vw;
+			height:4vw;
+			border-radius: 50%;
+			background-color:black;
+			}
+			
+			.column:nth-child(odd) .dot{
+			transform: rotate(90deg);
+			}
+			
+			.column:nth-child(even) .dot{
+			transform: rotate(30deg);
+			}
+			
+			.dot:nth-child(2n){
+			background-color:green;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+		
+		<div class="column">
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+			<div class="dot"><div class="inner"></div></div>
+		</div>
+
+		
+		
+	</body>
+
+</html>

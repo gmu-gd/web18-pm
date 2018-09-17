@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #117A65;
+	width: 90%;
+	height: 90%;
+	margin: 10vh auto;
+}
+
+div{
+	background-color: #117A65;
+	z-index: 4;
+}
+
+.cell {
+	float: left;
+	width: 8vw;
+	height: 8vw;
+	border: 1px solid red;
+	background-color: #fffc70;
+}
+
+.innerCell{
+	float: left;
+	width: 20%;
+	height: 20%;
+	border: 1px solid #117A65;
+	background-color: #fffc70;
+}
+
+.row {
+	
+}
+
+
+.row:nth-child(even) .cell:nth-child(odd) .innerCell:nth-child(even){
+	background-color: green;
+}
+
+.row:nth-child(odd) .cell:nth-child(odd) .innerCell:nth-child(odd){
+	background-color: green;
+}
+
