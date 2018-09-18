@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>A Title</title>
+		<style>
+			/*color
+				-name
+					"tomato"
+				-hexnumber
+					#XXXXXX // #000000 black // #ffffff white // #999999 some grey
+					number 0-9
+					letters A-F
+				-rgb
+					rgb(xx,xx,xx) // 0-255
+				-rgba
+					a = alpha = opacity/transparencies
+					rgba(xx,xx,xx,x) // a = 0-1
+
+			*/
+
+			/*measurements
+				-pixels - px
+				-ems - em
+					does the math for you
+				-percentages - 50%
+				-viewport width/height - vw/vh
+
+
+			*/
+			*{
+				font-size: 16px;
+				font-family: 'Roboto', sans-serif;
+			}
+			body {
+				background-color:tomato;
+				margin: 100px 30%;
+				/*top, right, bottom, left (clockwise)
+				if only three, then middle number controls right and bottom
+				only two, first one sets top and bottom and the second controls right and left*/
+				color:white;
+
+					}
+			h1{
+				font-size: 3em;
+				font-family: 'Playfair Display', serif;
+				
+			}
+			p {
+				font-family: 'Roboto', sans-serif;
+			}
+			li{
+				color: black;
+			}
+			/*the period calls the class*/
+			.underline{
+				text-decoration:underline;
+			}
+
+
+		</style>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<h1 class="underline">Heading 1</h1>
+		<h6>Smallest default heading</h6>
+		<!-- this is an image tag. This tag doesn't need to be closed, self contained. src = source. -->
+		<!-- can call up from website in "" or from own file. just end on a image file -->
+		<img src="http://google.com/image/image.jpg">
+
+		<p>This is some <b>text</b> I want to show up on my <i>website</i>. It is the body <em>text</em> so we put it in the p tag</p>
+		<!-- em is another way to italize -->
+
+		<ol>
+			<!-- li stands for list item -->
+			<li>Item 1</li>
+			<li>Iteam 2</li>
+		</ol>
+
+		<ul>
+			<li class="underline">Item 1</li>
+			<li>Iteam 2</li>
+		</ul>
+
+
+
+	</body>
+
+</html>
