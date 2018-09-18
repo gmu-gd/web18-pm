@@ -1,0 +1,35 @@
+body {
+	background-color: turquoise;
+}
+h1 {
+	font-size: 78px;
+	color: rgb(79, 173, 39);
+	font-family: 'Inconsolata', monospace;
+}
+h1:hover {
+	color: orange;
+	transition: all .75s linear;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+a {
+	font-size: 36px;
+	color: rgb(226, 66, 38);
+	border-bottom: 5px solid blue;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	border-bottom: 5px dotted rgb(226, 66, 38);
+	transition: all .75s ease-in;
+}
+img {
+	width: 4.25in;
+	height: 5.5in;
+	transition: 1s ease-in;
+}
+img:hover {
+
+}
