@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Have an Apple</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/SingleServe.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#button").bind('click', function(event){
+                    $("#image").css("opacity", "1");
+                });
+                
+            });
+        </script>
+    </head>
+    <body id="page">
+        <div class="appleDiv">
+            <button id="button">Click for an apple!</button>
+        </div>
+        <div class="appleDiv">
+            <img class="image"id="image" src="apple.png" alt="Apple!">
+        </div>
+        
+        
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+        <!--<script type="text/javascript" src="js/script.js"></script>-->
+        
+        
+        <!--<script>
+            function makeApple() {
+                var x = event.clientX;
+                var y = event.clientY;
+                document.getElementById("image").offsetTop = y;
+                document.getElementById("image").offsetLeft = x;
+            }
+        </script>-->
+    </body>
+</html>
