@@ -1,0 +1,156 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+div{
+	position: absolute;
+	background-color: red;
+	z-index: 4;
+}
+
+.longColumn {
+	height: 50vh;
+	width: 10vw;
+	border: .5vw solid white;
+}
+
+.longRow {
+	height: 10vh;
+	width: 80vw;
+	border: .5vw solid white;
+}
+
+.square {
+	height: 40vh;
+	width: 40vw;
+	border: .5vw solid white;
+}
+
+.spawn01{
+	top:0;
+	left:0;
+}
+
+.spawn02{
+	top:0;
+	left:10%;
+}
+
+.spawn03{
+	top:0;
+	right:10%;
+}
+
+.spawn04{
+	top:10%;
+	left:10%;
+}
+
+.spawn05{
+	top:10%;
+	left:50%;
+}
+
+.spawn06{
+	bottom:50%;
+	left:0;
+}
+
+.spawn07{
+	bottom:10%;
+	left:10%;
+}
+
+.spawn08{
+	bottom:50%;
+	right:10%;
+}
+
+.spawn09{
+	bottom:50%;
+	left:10%;
+}
+
+.spawn10{
+	bottom:50%;
+	left:50%;
+}
+
+@media only screen and (max-width: 960px) and (min-width: 480px) {
+	div {
+	background-color: blue;
+	}
+	
+	.longColumn {
+	height: 25vh;
+	width: 5vw;
+	border: .25vw solid white;
+	}
+
+	.longRow {
+	height: 5vh;
+	width: 40vw;
+	border: .25vw solid white;
+	}
+
+	.square {
+	height: 20vh;
+	width: 20vw;
+	border: .25vw solid white;
+	}
+	
+	.spawn01{
+		top:0;
+		left:0;
+	}
+
+	.spawn02{
+		top:0;
+		left:5%;
+	}
+
+	.spawn03{
+		top:0;
+		right:55%;
+	}
+
+	.spawn04{
+		top:5%;
+		left:5%;
+	}
+
+	.spawn05{
+		top:5%;
+		left:25%;
+	}
+
+	.spawn06{
+		bottom:75%;
+		left:0;
+	}
+
+	.spawn07{
+		bottom:55%;
+		left:5%;
+	}
+
+	.spawn08{
+		bottom:75%;
+		right:55%;
+	}
+
+	.spawn09{
+		bottom:75%;
+		left:5%;
+	}
+
+	.spawn10{
+		bottom:75%;
+		left:25%;
+	}
+}
+

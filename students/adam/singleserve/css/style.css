@@ -1,0 +1,15 @@
+img {
+	display: block;
+	margin-left: 650px;
+	margin-top: 250px;
+	height: 30%;
+	width: 30%;
+}
+body {
+	background-image: url("../images/background.png");
+}
+.beet {
+	position: absolute;
+	height: 50%;
+	width: 50%;
+}

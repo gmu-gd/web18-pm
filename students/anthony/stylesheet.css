@@ -1,0 +1,56 @@
+*{box-sizing: border-box;}
+body{
+		margin: 0;
+
+	}
+
+
+div {
+
+	float: left; 
+
+	}
+
+.field {
+
+	width: 300px;
+	background-color: seagreen;
+	
+
+	}
+			
+	.top{
+
+	width: 200px;
+	height: 100px;
+	background-color: seagreen;
+	border: 1px solid white;
+	
+	}
+				
+	.side{
+	width: 50px;
+	height: 200px;
+	background-color: seagreen;
+	border: 1px solid white;
+	
+	}
+	.middle{
+	
+	width: 200px;
+					
+					
+	}
+
+				.box{
+					width: 100px;
+					height: 100px;
+					background-color: seagreen;
+					border: 1px solid white;
+					 position: absolute;
+				}
+				.topContainer{
+
+					width: 300px;
+				}
+
