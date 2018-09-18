@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Left Or Right</title>
+       <link rel="stylesheet" type="text/css" href="css/mainPage2.css">
+       
+    </head>
+    <body>
+        <div class="border">
+		
+            <p class="text">LEFT OR RIGHT</p>
+<div id="prompts">    
+	<p id="prompt1" class="prompt">You've missed your bus and now you must walk to school. You come across a T-junction and can't remember which way to turn. To your left is a building you don't think you've seen before. To your right is a big crowd who appear to be applauding something. Better decide quick or you're gonna be late!</p>
+	<p id="prompt1-2" class="prompt">You chose left, you go that way and stuff happens.Choose Left or Right</p>
+	<p id="prompt1-3"class="prompt">You chose right, you go this way and some stuff happens. Pick Left or Right</p>
+	<p id="prompt2-1"class="prompt">this is all that is <b>left</b></p>
+	<p id="prompt2-2" class="prompt">there is nothing here <b>right</b> now</p
+	
+	</prompt>
+			<div class="leftArrow">
+			
+			<img id="left1" class="left" src="http://www.clker.com/cliparts/t/6/G/v/u/u/red-left-arrow-hi.png">
+				
+			<img id="right1" class="right" src="http://res.freestockphotos.biz/pictures/4/4431-illustration-of-a-blue-right-facing-arrow-pv.png">
+            <img id="left2" class="left" src="http://www.clker.com/cliparts/t/6/G/v/u/u/red-left-arrow-hi.png">
+				
+			<img id="right2" class="right" src="http://res.freestockphotos.biz/pictures/4/4431-illustration-of-a-blue-right-facing-arrow-pv.png">
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+	
+	
+	<input type="button" id="myButton" value="Ignore this button, it's pretty useless right now. Click it if it brings you pleasure. Y'know what, I'll just make it refresh the page for now. Why am I typing this?"/>
+
+    </body>
+
+<script>
+$("#prompt1-2").hide();
+$("#prompt1-3").hide();
+$("#prompt2-1").hide();
+$("#prompt2-2").hide();
+$("#right2").hide();
+$("#left2").hide();
+
+$(document).ready(function() {
+	$("#myButton").click(function(){
+	location.reload();
+	});
+});
+	$(document).ready(function() {
+	$("#left1").click(function(){
+	/*$("#prompt1").html("You chose left");*/
+	$("#prompt1").hide();
+	$("#prompt1-3").hide();
+	$("#prompt1-2").show();
+	$("#left1").hide();
+	$("#left2").show();
+	$("#right1").hide();
+	$("#right2").show();
+	});
+});
+	$(document).ready(function() {
+	$("#right1").click(function(){
+	/*$("#prompt1").html("You chose right");*/
+	$("#prompt1").hide();
+	$("#prompt1-2").hide();
+	$("#prompt1-3").show();
+	$("#left1").hide();
+	$("#left2").show();
+	$("#right1").hide();
+	$("#right2").show();
+	});
+});
+$(document).ready(function() {
+	$("#left2").click(function(){
+	/*$("#prompt1").html("You chose right");*/
+	$("#prompt1-2").hide();
+	$("#prompt1-3").hide();
+	$("#prompt2-1").show();
+	$("#left2").hide();
+	$("#left3").show();
+	$("#right2").hide();
+	$("#right3").show();
+	});
+});
+$(document).ready(function() {
+	$("#right2").click(function(){
+	/*$("#prompt1").html("You chose right");*/
+	$("#prompt1-3").hide();
+	$("#prompt1-2").hide();
+	$("#prompt2-2").show();
+	$("#left2").hide();
+	$("#left3").show();
+	$("#right2").hide();
+	$("#right3").show();
+	});
+});
+	
+
+	   </script>
+
+</html>

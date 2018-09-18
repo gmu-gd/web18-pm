@@ -1,0 +1,74 @@
+div{
+	position: absolute;
+	border: 3px solid white;
+}
+.side{
+	top: 0;
+	left:0;
+	width: 75px;
+	height: 270px;
+	background-color: red;
+}
+.side2{
+	top:273px;
+	left:0;
+	width: 75px;
+	height: 270px;
+	background-color: red;
+}
+.topcourt{
+	top:0;
+	left: 79px;
+	width: 358px;
+	height: 90px;
+	background-color: red;
+}
+.box{
+	top:92px;
+	left:79px;
+	width: 177px;
+	height: 177px;
+	background-color: red;
+}
+.box2{
+	top:92px;
+	left:260px;
+	width: 177px;
+	height: 177px;
+	background-color: red;
+}
+.side3{
+	top:0px;
+	left:433px;
+	width: 75px;
+	height: 270px;
+	background-color: red;
+}
+.side4{
+	top:273px;
+	left:433px;
+	width: 75px;
+	height: 270px;
+	background-color: red;
+}
+.box3{
+	top:273px;
+	left:260px;
+	width: 177px;
+	height: 177px;
+	background-color: red;
+}
+.box4{
+	top:273px;
+	left:79px;
+	width: 177px;
+	height: 177px;
+	background-color: red;
+}
+.topcourt2{
+	top:453px;
+	left: 79px;
+	width: 358px;
+	height: 90px;
+	background-color: red;
+}

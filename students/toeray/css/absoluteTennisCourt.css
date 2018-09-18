@@ -1,0 +1,272 @@
+body{
+/*    background-image:url("https://media.istockphoto.com/photos/tennis-ball-picture-id137345149?k=6&m=137345149&s=612x612&w=0&h=3DwFtXaN83o-VBiD4fwJK_fmuilNForlOylwRCb0Low=");*/
+    background-repeat:no-repeat;
+    background-position:center;
+        
+}
+div{
+    background-color:green;
+    position:absolute;
+    box-sizing:border-box;
+    border:2px solid white;
+    transition:
+}
+
+.column1{
+    width:100px;
+    height:200px;
+    top:0;
+    left:0;
+}
+.image{
+    position:absolute;
+    width:100px;
+    height:200px;
+    top:200px;
+    left:300px;
+    z-index:-1;
+    
+}
+
+.row1{
+    width:200px;
+    height:100px;
+    top:0;
+    left:100px;
+}
+.column2{
+    width:100px;
+    height:200px;
+    top:0;
+    left:300px;
+}
+.square1{
+    width:100px;
+    height:100px;
+    top:100px;
+    left:100px;
+}
+.square2{
+    width:100px;
+    height:100px;
+    top:100px;
+    left:200px;
+}
+/*bottom*/
+.column3{
+    width:100px;
+    height:200px;
+    top:200;
+    left:0;
+}
+
+.row2{
+    width:200px;
+    height:100px;
+    top:300;
+    left:100px;
+}
+.column4{
+    width:100px;
+    height:200px;
+    top:200px;
+    left:300px;
+}
+.column4:hover{
+    opacity:0;
+    transition:opacity 2s ease;
+}
+.square3{
+    width:100px;
+    height:100px;
+    top:200px;
+    left:100px;
+}
+.square4{
+    width:100px;
+    height:100px;
+    top:200px;
+    left:200px;
+}
+ .square11{
+    width:200px;
+    height:200px;
+    top:200px;
+    left:200px;
+       opacity:0;
+}
+   .square22{
+    width:200px;
+    height:200px;
+    top:200px;
+    left:400px;
+       opacity:0;
+}
+  .square33{
+    width:200px;
+    height:200px;
+    top:400px;
+    left:200px;
+      opacity:0;
+}
+    .square44{
+    width:200px;
+    height:200px;
+    top:400px;
+    left:400px;
+        opacity:0;
+}
+ .column11{
+    width:200px;
+    height:400px;
+    top:0;
+    left:0;
+     opacity:0;
+}   
+   .column22{
+    width:200px;
+    height:400px;
+    top:0;
+    left:600px;
+       opacity:0;
+} 
+    .column33{
+    width:200px;
+    height:400px;
+    top:400;
+    left:0;
+        opacity:0;
+}
+  .column44{
+    width:200px;
+    height:400px;
+    top:400px;
+    left:600px;
+      opacity:0;
+}  
+    .row11{
+    width:400px;
+    height:200px;
+    top:0;
+    left:200px;
+        opacity:0;
+}
+     .row22{
+    width:400px;
+    height:200px;
+    top:600;
+    left:200px;
+         opacity:0;
+}
+.tennisBall{
+    opacity:0;
+}
+@media only screen and (max-width:1000px){
+    body{
+        background-color:black;
+        background-image:url("https://virtualconsoles.com/wp-content/uploads/2017/11/pac-man-pong-etro-game-anim.gif");
+    }
+    body:hover{
+    opacity:.0;
+    transition:opacity 10s ease;
+    }
+/*
+    div{
+    background-color:black;
+    }
+*/
+    img{
+        float:left;
+        position:absolute;
+        z-index:3;
+        border:5px solid black;
+        box-sizing:border-box;
+    }
+   .tennisBall{
+       opacity:0;
+       z-index:6;
+      
+       position:fixed;
+        
+       width:300px;
+       height:300px;
+       top:250px;
+       left:250px;
+       border:0px;
+       transition: opacity 0s ease;
+    }
+    .tennisBall:hover{
+        opacity:1;
+        transition: opacity 3s ease;
+    }
+   .square11{
+    width:200px;
+    height:200px;
+    top:200px;
+    left:200px;
+       opacity:1;
+}
+   .square22{
+    width:200px;
+    height:200px;
+    top:200px;
+    left:400px;
+       opacity:1;
+}
+  .square33{
+    width:200px;
+    height:200px;
+    top:400px;
+    left:200px;
+      opacity:1;
+}
+    .square44{
+    width:200px;
+    height:200px;
+    top:400px;
+    left:400px;
+        opacity:1;
+}
+ .column11{
+    width:200px;
+    height:400px;
+    top:0;
+    left:0;
+     opacity:1;
+}   
+   .column22{
+    width:200px;
+    height:400px;
+    top:0;
+    left:600px;
+       opacity:1;
+} 
+    .column33{
+    width:200px;
+    height:400px;
+    top:400;
+    left:0;
+        opacity:1;
+}
+  .column44{
+    width:200px;
+    height:400px;
+    top:400px;
+    left:600px;
+      opacity:1;
+}  
+    .row11{
+    width:400px;
+    height:200px;
+    top:0;
+    left:200px;
+        opacity:1;
+}
+     .row22{
+    width:400px;
+    height:200px;
+    top:600;
+    left:200px;
+         opacity:1;
+}
+}

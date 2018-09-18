@@ -1,0 +1,50 @@
+body {
+	background-color: #ffc4ea;
+}
+button {
+	background-color: hotpink;
+	width: 400px;
+	height: 200px;
+	font-size: 50px;
+	font-family: 'Baloo Tammudu', cursive;
+	border-radius: 50px;
+	color: #ffdbed;
+	margin: 200px calc((100vw - 400px) / 2);
+  box-shadow: 0 9px #ba5797;
+}
+
+button:hover {
+	transition-delay: .5s ease;
+	 	transition: background-color .3s ease-in-out;
+		-moz-transition: color .3s ease-in-out;
+  		text-decoration: none;
+  	 	-webkit-animation: zomg 0.5s infinite;
+  		animation: zomg 0.5s infinite;
+
+}
+
+@-webkit-keyframes zomg {
+  0%, 100% { background-color: #7ccdea; }
+  16%      { background-color: #0074d9; }
+  32%      { background-color: #2ecc40; }
+  48%      { background-color: #ffdc00; }
+  64%      { background-color: #b10dc9; }
+  80%      { background-color: #ff35bf; }
+}
+@keyframes zomg {
+  0%, 100% { background-color: #7ccdea; }
+  16%      { background-color: #0074d9; }
+  32%      { background-color: #2ecc40; }
+  48%      { background-color: #ffdc00; }
+  64%      { background-color: #b10dc9; }
+  80%      { background-color: #ff35bf; }
+
+
+}
+
+
+
+   button:active {background-color: #3e8e41;
+  box-shadow: 0 10px #ba5797;
+  transform: translateY(4px);
+}
