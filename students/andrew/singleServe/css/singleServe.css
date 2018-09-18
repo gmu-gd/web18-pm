@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #117A65;
+	margin: 0;
+}
+
+.boardHolder{
+	width: 90%;
+	height: 40vw;
+	margin: 10vh auto;
+	border: 0px solid purple;
+}
+
+div{
+	background-color: #117A65;
+	z-index: 4;
+}
+
+.cell {
+	float: left;
+	width: 8vw;
+	height: 8vw;
+	border: 0px solid red;
+	background-color: #fffc70;
+}
+
+.innerCell{
+	float: left;
+	width: 20%;
+	height: 20%;
+	border: 0px solid #117A65;
+	background-color: #fffc70;
+}
+
+.cellOff{
+	float: left;
+	width: 20%;
+	height: 20%;
+	border: 0px solid #117A65;
+	background-color: black;
+}
+
+.cellOn{
+	float: left;
+	width: 20%;
+	height: 20%;
+	border: 0px solid #117A65;
+	background-color: white;
+}
+
+.row {
+	
+}
+
+.debug {
+	color: white;
+	position: fixed;
+	top: 4%;
+	left: 4%;
+	size: 16px;
+	font-family: sans-serif;
+}
+
+
+.row:nth-child(even) .cell:nth-child(odd) .innerCell:nth-child(even){
+	background-color: green;
+}
+
+.row:nth-child(odd) .cell:nth-child(odd) .innerCell:nth-child(odd){
+	background-color: green;
+}
+
+.row:nth-child(odd) .cell:nth-child(even) .innerCell:nth-child(even){
+	background-color: green;
+}
+
+.row:nth-child(even) .cell:nth-child(even) .innerCell:nth-child(odd){
+	background-color: green;
+}

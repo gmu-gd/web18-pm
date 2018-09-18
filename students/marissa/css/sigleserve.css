@@ -1,0 +1,34 @@
+
+body{
+	color: white;
+	margin: 0;
+	background-color: white;
+	font-family: 'Gamja Flower', cursive;
+	}
+.circle:hover{
+	color: blue;
+	text-align: center;
+	background-color: magenta;
+	font-family: 'Gamja Flower', cursive;
+}
+.circle{
+	margin: 500px 500px;
+	width: 100.5px;
+	height: 100.5px;
+	border-radius: 100.5px;
+}
+.dot{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	display: none;
+	top: 100px;
+	left:1000px;
+	color: black;
+}
+h2{
+	font-family: 'Gamja Flower', cursive;
+	font-size: 24.8px;
+	text-align: center;
+	border-top: -50px;
+}

@@ -10,6 +10,7 @@ button {
 	border-radius: 50px;
 	color: #ffdbed;
 	margin: 200px calc((100vw - 400px) / 2);
+  box-shadow: 0 9px #ba5797;
 }
 
 button:hover {
@@ -39,4 +40,11 @@ button:hover {
   80%      { background-color: #ff35bf; }
 
 
+}
+
+
+
+   button:active {background-color: #3e8e41;
+  box-shadow: 0 10px #ba5797;
+  transform: translateY(4px);
 }
