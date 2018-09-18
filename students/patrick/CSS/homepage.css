@@ -1,8 +1,9 @@
 body {
-    background-color:slategray;
     padding: 0;
+    background-color:slategray;
 }
 a {
+    background-image:linear-gradient(slategray, darkslategray);
     font-size: 36px;
     font-weight: bold;
     text-transform:capitalize;
@@ -17,4 +18,8 @@ a:hover {
     border-color:darkblue;
     color:darkblue;
     border-left-width:18px;
+}
+.column {
+    float: left;
+    width: 50%;
 }
