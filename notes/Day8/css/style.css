@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	background-color: whitesmoke;
+}
+.container {
+	width: 50vw;
+	margin: 50px auto;
+}
+ol {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+li {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+hr {
+	border-top: 3px solid black;
+	margin: 25px 0;
+}
+img {
+	max-width: 50%;
+	margin: 0 auto;
+	background-color: white;
+}

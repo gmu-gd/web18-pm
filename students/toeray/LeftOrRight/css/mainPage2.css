@@ -1,0 +1,73 @@
+
+body{
+    background-color:lightblue;
+
+}
+.border{
+    background-image:url("https://nofilmschool.com/sites/default/files/styles/article_wide/public/left_right.jpg?itok=6qSYlTI3");
+    background-repeat:no-repeat;
+    background-color:lightblue;
+    background-blend-mode:lighten;
+    background-size:80vw 80vh;
+    border:2vw solid steelblue;
+    border-bottom:10vw solid steelblue;
+   /*box-shadow:border-box 2px white;<!-- figure this out */
+    width:80vw;
+    height:80vh;
+    margin:5vw auto;
+}
+
+.text{
+    font-size:5vw;
+   color:blue;
+    position:relative;
+    margin:5vh 20vw;
+}
+#prompts{
+   color:blue;
+    font-size:2vw;
+    position:relative;
+ 
+}
+.prompt{
+	margin:1vh 5vw;
+	font-size:3vw;
+}
+#prompt1{
+	
+   color:blue;
+    position:relative;
+   
+	
+}
+#promtp2{
+	font-size:5vw;
+   color:blue;
+    position:relative;
+    margin:5vh 20vw;
+}
+#full-size{
+	float:left;
+	width:500px;
+	height:400px;
+	margin:10opx;
+	background-size:contain;
+}
+
+.left{
+    width:30vw;
+    height:15vh;
+    position:relative;
+    top:-5vh;
+    left:5vw;
+}
+
+.right{
+    width:25vw;
+    height:20vh;
+    position:relative;
+     top:-1vh;
+    left:20vw;
+}
+
+
